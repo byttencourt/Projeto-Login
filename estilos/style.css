@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     background: rgb(184, 98, 218) url('../imagens/bg-01.jpg') center center no-repeat;
     background-size: cover;
     height: 100vh;
@@ -18,15 +19,15 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
-    
-    
+
+
 }
 
 section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-   
+
     background-color: white;
     width: 250px;
     height: 550px;
@@ -38,53 +39,55 @@ section#login {
     transform: translate(-50%, -50%);
 }
 
-section#login > div#imagem {
+section#login>div#imagem {
     display: block;
     background: rgb(144, 98, 218) url('../imagens/pexels-david-underland-3523621.jpg') no-repeat center center;
     background-size: cover;
     height: 200px;
 }
 
-section#login > div#formulario {
+section#login>div#formulario {
     display: block;
     padding: 10px;
 }
 
-div#formulario > h1 {
+div#formulario>h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-div#formulario > p {
+div#formulario>p {
     font-size: 12px;
     margin-bottom: 10px;
     padding: 15px;
 }
-div#campo > i {
+
+div#campo>i {
     color: rgb(144, 98, 218);
     font-size: 2em;
     width: 40px;
     padding: 5px;
-    
+
 }
-div#campo > input {
+
+div#campo>input {
     background-color: #f2e8f8;
     font-size: 1em;
     width: calc(90% - 44px);
     height: 100%;
-    border: 0px;    
+    border: 0px;
     border-radius: 20px;
     transform: translateY(-14px);
     padding: 10px;
-   
+
 }
 
-div#campo > input:focus-within {
+div#campo>input:focus-within {
     background-color: white;
     border: none;
 }
 
-form > input[type=submit] {
+form>input[type=submit] {
     margin: auto;
     display: block;
     font-size: 1em;
@@ -99,11 +102,11 @@ form > input[type=submit] {
     cursor: pointer;
 }
 
-form > input[type=submit]:hover {
+form>input[type=submit]:hover {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
 }
 
-form > a.botao {
+form>a.botao {
     margin: auto;
     margin-top: 5px;
     display: block;
@@ -111,16 +114,15 @@ form > a.botao {
     font-size: 1em;
     width: 60%;
     height: 40px;
-    background-color: rgb(255, 255, 255);    
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     color: rgb(111, 28, 122);
     padding: 8px;
 }
 
-form > a.botao:hover {
+form>a.botao:hover {
     background: url('../imagens/bg-01.jpg') center center;
     background-size: cover;
     color: white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
 }
-
