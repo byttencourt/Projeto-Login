@@ -7,7 +7,7 @@
 # Descrição
 Esta é uma tela de login responsiva criada com objetivo de ser funcional e adptavel a diversos tipos de dispositivos com resoluções e orientações de telas diferentes, celulares, tablets, laptops, desktops e até tv's utilizando uma interface minimalista.
 
-O objetivo é utilizar os conceitos de Semântica, Media-Querys, Formulários.
+Neste projeto foram utilizados os conceitos de Semântica, Media-Querys, Formulários, entre outros.
 
  
 
