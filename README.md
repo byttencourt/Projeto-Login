@@ -3,7 +3,9 @@
     <img src="https://i.imgur.com/RI65v4j.png" width="400px">
 </div>
      
- 
+# Live View
+https://byttencourt.github.io/Projeto-Login/
+
 # Descrição
 Esta é uma tela de login responsiva criada com objetivo de ser funcional e adptavel a diversos tipos de dispositivos com resoluções e orientações de telas diferentes, celulares, tablets, laptops, desktops e até tv's utilizando uma interface minimalista.
 
